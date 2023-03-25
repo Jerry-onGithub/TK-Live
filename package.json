@@ -1,0 +1,34 @@
+{
+  "name": "TikTok-Live",
+  "productName": "TikTok Live",
+  "version": "1.0.0",
+  "description": "TikTok Live",
+  "main": "src/main.js",
+  "asar": true,
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": "jerry",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "electron": "23.1.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "firebase": "^9.17.2",
+    "firebase-admin": "^11.5.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "@electron-forge/maker-deb": "^6.0.5",
+    "@electron-forge/maker-rpm": "^6.0.5",
+    "@electron-forge/maker-squirrel": "^6.0.5",
+    "@electron-forge/maker-zip": "^6.0.5",
+    "electron": "23.1.1",
+    "electron-packager": "^17.1.1"
+  }
+}
